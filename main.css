@@ -1,0 +1,100 @@
+body {
+	margin: 0px;
+}
+
+.header {
+	background-color: black;
+	padding: 20px;
+	color: orange;
+}
+
+.logo {
+	float: left;
+	width: 60%;
+}
+
+.nav {
+	float: right;
+	width: 40%;
+}
+
+.nav a {
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: orange;
+}
+
+.inner-header {
+	width: 70%;
+	margin: auto;
+}
+
+.slider {
+	background-image: url('bg.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 100px;
+	text-align: center;
+}
+
+.inner-slider {
+	width: 60%;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 15px;
+}
+
+.inner-slider h1 {
+	color: orange;
+}
+
+.inner-slider p {
+	color: white;
+}
+
+.content-body {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	padding: 50px;
+}
+
+.border {
+	width: 100%;
+	border: 1px solid #DDD;
+
+}
+
+.our-features {
+	padding-top: 30px;
+	width: 70%;
+	margin: auto;
+}
+
+.footer {
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.resize {
+	width: 100%;
+	max-width: 200px;
+}
+
+.images {
+	float: left;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.clearboth {
+	clear: both;
+}
